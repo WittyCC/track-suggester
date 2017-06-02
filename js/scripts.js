@@ -9,6 +9,8 @@ $(document).ready(function() {
 
     var result = learner + priority + employer + webby + gameplay;
 
+    $('#userTrack').hide();
+
     $('.user1').text(user1Input);
 
     if (learner === 0) {

@@ -33,11 +33,11 @@ li {
   font-size: 150%
 }
 
-#conclusion1, #conclusion2, #conclusion3 {
-  display: none;
+.btnholder {
   text-align: center;
 }
 
-.btnholder {
+#conclusion1, #conclusion2, #conclusion3 {
+  display: none;
   text-align: center;
 }
