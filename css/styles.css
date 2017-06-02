@@ -20,6 +20,11 @@ h2 {
     padding: 10px;
 }
 
+h3 {
+  padding: 10px;
+  text-align: center;
+}
+
 label {
   font-size: 150%;
 }
@@ -34,5 +39,5 @@ li {
 }
 
 button {
-  text-align: center;
+margin: 0 auto;
 }
