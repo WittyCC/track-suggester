@@ -22,11 +22,11 @@ $(document).ready(function() {
     } else if (gameplay === 0) {
       alert('Please make a selection.');
     } else if (result >=5 && result <=9) {
-      $('#conclusion1').show();
+      $('#conclusion1').fadeIn("slow");
     } else if (result > 9 && result <= 12) {
-      $('#conclusion2').show();
+      $('#conclusion2').fadeIn("slow");
     } else if (result > 12 && result <=15) {
-      $('#conclusion3').show();
+      $('#conclusion3').fadeIn("slow");
     }
 
     event.preventDefault();

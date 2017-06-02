@@ -8,15 +8,19 @@
     <title>Track Suggester</title>
   </head>
   <body>
-      <h1>Find Out Which Programming Language You Should Choose</h1>
       <div class="container">
+        <div class="jumbotron">
+          <img src="img/confused.png" alt="An image of a confused kid in front of a computer." align="middle">
+          <h1>Find Out Which Programming Language You Should Choose</h1>
+        </div>
         <form id="userTrack">
           <div class="userName">
-            <label for="user1">Please enteryour name:</label>
+            <label for="user1">Please enter your name (optional)</label>
             <input id="user1" class="form-control" type="text">
           </div>
+          <br></br>
           <div class="userAddress">
-            <label for="address1">Address:</label>
+            <label for="address1">Address</label>
             <input id="address1" class="form-control" type="text">
           </div>
           <h3>Please pick the statement that corresponds to you most:</h3>
@@ -28,6 +32,7 @@
                 <option value="2">Verbal Style</option>
                 <option value="3">A little bit of both</option>
               </select>
+              <br></br>
               <li>When working on any project, which statement rings true for you in terms of your priorities?</li>
               <select class="form-control" id="priority">
                 <option value="0"></option>
@@ -35,6 +40,7 @@
                 <option value="2">I always try to make my project well-rounded.</option>
                 <option value="3">I always like to make my project functional and ensure that it does what it's supposed to do.</option>
               </select>
+              <br></br>
               <li>Pick a company that you would like to work for.</li>
               <select class="form-control" id="employer">
                 <option value="0"></option>
@@ -42,6 +48,7 @@
                 <option value="2">IBM</option>
                 <option value="3">ERC</option>
               </select>
+              <br></br>
               <li>If you are getting paid to build any kind of website, what objective would you want to focus on?</li>
               <select class="form-control" id="webby">
                 <option value="0"></option>
@@ -49,6 +56,7 @@
                 <option value="2">I would want to build a website that is very user-friendly.</option>
                 <option value="3">I would want to build a website that can allow me to gather as much user information as possible.</option>
               </select>
+              <br></br>
               <li>Do you like playing video games?</li>
               <select class="form-control" id="gameplay">
                 <option value="0"></option>
@@ -61,17 +69,17 @@
         </form>
         <div id="conclusion1">
           <div class="cssDesign">
-            <h2><span class="user1"></span>, you ought to study <strong>CSS/Design</strong></h2>
+            <h2 class="bg-success"><span class="user1"></span>, you mostly picked the first options.<br>You should definitely study <strong>CSS/Design</strong></h2>
           </div>
         </div>
         <div id="conclusion2">
           <div class="javaAndroid">
-          <h2><span class="user1"></span>, you ought to study <strong>Java/Android</strong></h2>
+          <h2 class="bg-warning"><span class="user1"></span>, you mostly picked the second options.<br>You should definitely study <strong>Java/Android</strong></h2>
           </div>
         </div>
         <div id="conclusion3">
           <div class="phpDrupal">
-          <h2><span class="user1"></span>, you ought to study <strong>PHP/Drupal</strong></h2>
+          <h2 class="bg-danger"><span class="user1"></span>, you mostly picked the third options.<br>You should definitely study <strong>PHP/Drupal</strong></h2>
           </div>
         </div>
       </div>

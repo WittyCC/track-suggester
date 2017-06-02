@@ -1,8 +1,38 @@
+body {
+  background-color: lightcyan;
+  font-family: Georgia;
+}
+
+.jumbotron {
+  background-color: mistyrose;
+}
+
+img {
+  float: right;
+  zoom: 40%;
+}
+
 h1 {
   text-align: center;
 }
 
+h2 {
+    padding: 10px;
+}
+
+label {
+  font-size: 150%;
+}
+
+li {
+  font-size: 150%
+}
+
 #conclusion1, #conclusion2, #conclusion3 {
   display: none;
+  text-align: center;
+}
+
+button {
   text-align: center;
 }
