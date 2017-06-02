@@ -1,3 +1,8 @@
 h1 {
   text-align: center;
 }
+
+#conclusion1, #conclusion2, #conclusion3 {
+  display: none;
+  text-align: center;
+}
